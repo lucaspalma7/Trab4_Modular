@@ -35,6 +35,7 @@
 #ifdef _DEBUG
 #include   "CESPDIN.H"
 #include   "CONTA.H"
+#include   "..//tabelas//IdTiposEspaco.def"
 #endif
 
 
@@ -154,7 +155,7 @@ TAB_tpCondRet TAB_CriaTabuleiro(TAB_ppAncoraTabuleiro * ppTabuleiro, int tam) {
 	   CED_MarcarEspacoAtivo(ppTabuleiro);
 	   pTabuleiro->tam = 0;
 	   pTabuleiro->tamValores = 0;
-       CED_DefinirTipoEspaco( ppTabuleiro , TAB_ancoraTabuleiro ) ;
+       CED_DefinirTipoEspaco( ppTabuleiro , TAB_TipoEspacoCabeca ) ;
 	#endif
 	
 	*ppTabuleiro = pTabuleiro;
