@@ -62,4 +62,9 @@
       <Filter>Header Files</Filter>
     </Library>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Tabelas\IdTiposEspaco.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>

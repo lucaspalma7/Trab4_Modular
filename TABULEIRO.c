@@ -14,7 +14,6 @@
 *  $HA Histórico de evolução:
 *     Versão  Autor    Data     Observações
 *     1       tb,ja,lp   26/set/2016 início desenvolvimento.
-
 * 
 ***************************************************************************/
 
@@ -35,7 +34,7 @@
 #ifdef _DEBUG
 #include   "CESPDIN.H"
 #include   "CONTA.H"
-#include   "..//tabelas//IdTiposEspaco.def"
+#include   "C:\Users\Julia\Desktop\Trab4_Modular\Trab4\Tabelas\IdTiposEspaco.def"
 #endif
 
 
